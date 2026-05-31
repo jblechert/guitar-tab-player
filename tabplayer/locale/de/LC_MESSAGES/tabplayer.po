@@ -1,0 +1,227 @@
+# Guitar Tab Player - German (Deutsch) translation
+# Copyright (C) 2026 Guitar Tab Player Contributors
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Guitar Tab Player 1.0\n"
+"POT-Creation-Date: 2026-05-31\n"
+"PO-Revision-Date: 2026-05-31\n"
+"Language-Team: German\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Guitar Tab Player"
+msgstr "Gitarren-Tab-Player"
+
+msgid "🎸 Player"
+msgstr "🎸 Player"
+
+msgid "✨ Tab Generator"
+msgstr "✨ Tab-Generator"
+
+msgid "Example:"
+msgstr "Beispiel:"
+
+msgid "Load SoundFont…"
+msgstr "SoundFont laden …"
+
+msgid "Manually select a .sf2 SoundFont file"
+msgstr "Eine .sf2-SoundFont-Datei manuell auswählen"
+
+msgid "Tab Input  (paste any ASCII tab here)"
+msgstr "Tab-Eingabe  (beliebigen ASCII-Tab hier einfügen)"
+
+msgid "Paste ASCII guitar tab here…"
+msgstr "ASCII-Gitarrentab hier einfügen …"
+
+msgid "Parse Tab ▶"
+msgstr "Tab parsen ▶"
+
+msgid "Parsed Tab  (playhead highlighted)"
+msgstr "Geparster Tab  (Playhead hervorgehoben)"
+
+msgid "Transport"
+msgstr "Transport"
+
+msgid "Play"
+msgstr "Abspielen"
+
+msgid "Pause"
+msgstr "Pause"
+
+msgid "Stop"
+msgstr "Stopp"
+
+msgid "BPM:"
+msgstr "BPM:"
+
+msgid "Auto"
+msgstr "Auto"
+
+msgid "Auto-detect BPM (asks Ollama for the song tempo)"
+msgstr "BPM automatisch erkennen (fragt Ollama nach dem Tempo)"
+
+msgid "Subdivision:"
+msgstr "Unterteilung:"
+
+msgid "Tuning:"
+msgstr "Stimmung:"
+
+msgid "Instrument:"
+msgstr "Instrument:"
+
+msgid "Loop"
+msgstr "Wiederholen"
+
+msgid "Note: ASCII tabs contain no rhythm information. BPM and subdivision control the playback speed."
+msgstr "Hinweis: ASCII-Tabs enthalten keine Rhythmusinformationen. BPM und Unterteilung steuern das Tempo."
+
+msgid "Song Request"
+msgstr "Song-Anfrage"
+
+msgid "Song:"
+msgstr "Song:"
+
+msgid "Artist:"
+msgstr "Künstler:"
+
+msgid "Section:"
+msgstr "Abschnitt:"
+
+msgid "Ollama Model:"
+msgstr "Ollama-Modell:"
+
+msgid "e.g. Für Elise"
+msgstr "z.B. Für Elise"
+
+msgid "e.g. Beethoven  (optional)"
+msgstr "z.B. Beethoven  (optional)"
+
+msgid "e.g. Intro, main riff, verse  (optional)"
+msgstr "z.B. Intro, Hauptriff, Verse  (optional)"
+
+msgid "Model name, e.g. qwen3:latest"
+msgstr "Modellname, z.B. qwen3:latest"
+
+msgid "Generate Tab"
+msgstr "Tab generieren"
+
+msgid "Cancel"
+msgstr "Abbrechen"
+
+msgid "Show Prompt"
+msgstr "Prompt anzeigen"
+
+msgid "Show the prompt that will be sent to Ollama"
+msgstr "Zeigt den Prompt, der an Ollama gesendet wird"
+
+msgid "Load into Player"
+msgstr "In Player laden"
+
+msgid "Copy the generated tab into the Player"
+msgstr "Generierten Tab in den Player kopieren"
+
+msgid "Generated Tab  (streaming live)"
+msgstr "Generierter Tab  (streamt live)"
+
+msgid "Generated tab will appear here…"
+msgstr "Hier erscheint der generierte Tab …"
+
+msgid "You can edit it before loading into the Player."
+msgstr "Du kannst ihn vor dem Laden in den Player noch bearbeiten."
+
+msgid "Ollama must be running locally: <b>ollama serve</b>  |  Pull model: <b>ollama pull qwen3:latest</b>"
+msgstr "Ollama muss lokal laufen: <b>ollama serve</b>  |  Modell laden: <b>ollama pull qwen3:latest</b>"
+
+msgid "Ready."
+msgstr "Bereit."
+
+msgid "Parse error: "
+msgstr "Parse-Fehler: "
+
+msgid "columns parsed. Warnings: "
+msgstr "Spalten geparst. Warnungen: "
+
+msgid "Tab parsed:"
+msgstr "Tab geparst:"
+
+msgid "columns /"
+msgstr "Spalten /"
+
+msgid "system(s)."
+msgstr "System(e)."
+
+msgid "No valid tab loaded."
+msgstr "Kein gültiger Tab geladen."
+
+msgid "Stopped."
+msgstr "Gestoppt."
+
+msgid "SoundFont loaded: "
+msgstr "SoundFont geladen: "
+
+msgid "Select SoundFont"
+msgstr "SoundFont auswählen"
+
+msgid "No SoundFont (.sf2) found — load one manually or install FluidR3_GM.sf2. Playhead will still work."
+msgstr "Keine SoundFont (.sf2) gefunden — bitte manuell laden oder FluidR3_GM.sf2 installieren. Playhead läuft trotzdem."
+
+msgid "SoundFont found: "
+msgstr "SoundFont gefunden: "
+
+msgid "note"
+msgstr "Note"
+
+msgid "chord ({n} notes)"
+msgstr "Akkord ({n} Noten)"
+
+msgid "Column {cur} / {total}  —  {label}"
+msgstr "Spalte {cur} / {total}  —  {label}"
+
+msgid "Done."
+msgstr "Fertig."
+
+msgid "Audio warning: "
+msgstr "Audio-Warnung: "
+
+msgid "Please enter a song title."
+msgstr "Bitte Song-Titel eingeben."
+
+msgid "Generating tab for \"{song}\"…"
+msgstr "Generiere Tab für \"{song}\" …"
+
+msgid "Generation cancelled."
+msgstr "Generierung abgebrochen."
+
+msgid "Prompt sent to Ollama"
+msgstr "An Ollama gesendeter Prompt"
+
+msgid "End of prompt"
+msgstr "Ende des Prompts"
+
+msgid "Prompt displayed."
+msgstr "Prompt angezeigt."
+
+msgid "Tab loaded into Player and parsed."
+msgstr "Tab in Player geladen und geparst."
+
+msgid "Tab generated. Click '▶ Load into Player' to play it."
+msgstr "Tab generiert. Mit '▶ In Player laden' abspielen."
+
+msgid "Error:"
+msgstr "Fehler:"
+
+msgid "Generation failed."
+msgstr "Generierung fehlgeschlagen."
+
+msgid "Asking Ollama for BPM of \"{song}\"…"
+msgstr "Frage Ollama nach BPM von \"{song}\" …"
+
+msgid "Auto-Tempo: {bpm} BPM set."
+msgstr "Auto-Tempo: {bpm} BPM gesetzt."
+
+msgid "Auto-Tempo failed: "
+msgstr "Auto-Tempo fehlgeschlagen: "

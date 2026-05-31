@@ -1,0 +1,243 @@
+# Guitar Tab Player - Translation Template
+# Copyright (C) 2026 Guitar Tab Player Contributors
+# This file is distributed under the same license as the Guitar Tab Player package.
+#
+# Translators: fill in "msgstr" for each string below.
+# Compile with:  msgfmt -o <lang>/LC_MESSAGES/tabplayer.mo <lang>/LC_MESSAGES/tabplayer.po
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Guitar Tab Player 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-31\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# Window title
+msgid "Guitar Tab Player"
+msgstr ""
+
+# Tab widget labels
+msgid "🎸 Player"
+msgstr ""
+
+msgid "✨ Tab Generator"
+msgstr ""
+
+# Player tab - top bar
+msgid "Example:"
+msgstr ""
+
+msgid "Load SoundFont…"
+msgstr ""
+
+msgid "Manually select a .sf2 SoundFont file"
+msgstr ""
+
+# Player tab - input group
+msgid "Tab Input  (paste any ASCII tab here)"
+msgstr ""
+
+msgid "Paste ASCII guitar tab here…"
+msgstr ""
+
+msgid "Parse Tab ▶"
+msgstr ""
+
+# Player tab - display group
+msgid "Parsed Tab  (playhead highlighted)"
+msgstr ""
+
+# Transport bar
+msgid "Transport"
+msgstr ""
+
+msgid "Play"
+msgstr ""
+
+msgid "Pause"
+msgstr ""
+
+msgid "Stop"
+msgstr ""
+
+msgid "BPM:"
+msgstr ""
+
+msgid "Auto"
+msgstr ""
+
+msgid "Auto-detect BPM (asks Ollama for the song tempo)"
+msgstr ""
+
+msgid "Subdivision:"
+msgstr ""
+
+msgid "Tuning:"
+msgstr ""
+
+msgid "Instrument:"
+msgstr ""
+
+msgid "Loop"
+msgstr ""
+
+msgid "Note: ASCII tabs contain no rhythm information. BPM and subdivision control the playback speed."
+msgstr ""
+
+# Generator tab - form
+msgid "Song Request"
+msgstr ""
+
+msgid "Song:"
+msgstr ""
+
+msgid "Artist:"
+msgstr ""
+
+msgid "Section:"
+msgstr ""
+
+msgid "Ollama Model:"
+msgstr ""
+
+msgid "e.g. Für Elise"
+msgstr ""
+
+msgid "e.g. Beethoven  (optional)"
+msgstr ""
+
+msgid "e.g. Intro, main riff, verse  (optional)"
+msgstr ""
+
+msgid "Model name, e.g. qwen3:latest"
+msgstr ""
+
+# Generator tab - buttons
+msgid "Generate Tab"
+msgstr ""
+
+msgid "Cancel"
+msgstr ""
+
+msgid "Show Prompt"
+msgstr ""
+
+msgid "Show the prompt that will be sent to Ollama"
+msgstr ""
+
+msgid "Load into Player"
+msgstr ""
+
+msgid "Copy the generated tab into the Player"
+msgstr ""
+
+# Generator tab - output
+msgid "Generated Tab  (streaming live)"
+msgstr ""
+
+msgid "Generated tab will appear here…"
+msgstr ""
+
+msgid "You can edit it before loading into the Player."
+msgstr ""
+
+msgid "Ollama must be running locally: <b>ollama serve</b>  |  Pull model: <b>ollama pull qwen3:latest</b>"
+msgstr ""
+
+# Status bar messages
+msgid "Ready."
+msgstr ""
+
+msgid "Parse error: "
+msgstr ""
+
+msgid "columns parsed. Warnings: "
+msgstr ""
+
+msgid "Tab parsed:"
+msgstr ""
+
+msgid "columns /"
+msgstr ""
+
+msgid "system(s)."
+msgstr ""
+
+msgid "No valid tab loaded."
+msgstr ""
+
+msgid "Stopped."
+msgstr ""
+
+msgid "SoundFont loaded: "
+msgstr ""
+
+msgid "Select SoundFont"
+msgstr ""
+
+msgid "No SoundFont (.sf2) found — load one manually or install FluidR3_GM.sf2. Playhead will still work."
+msgstr ""
+
+msgid "SoundFont found: "
+msgstr ""
+
+msgid "note"
+msgstr ""
+
+msgid "chord ({n} notes)"
+msgstr ""
+
+msgid "Column {cur} / {total}  —  {label}"
+msgstr ""
+
+msgid "Done."
+msgstr ""
+
+msgid "Audio warning: "
+msgstr ""
+
+msgid "Please enter a song title."
+msgstr ""
+
+msgid "Generating tab for \"{song}\"…"
+msgstr ""
+
+msgid "Generation cancelled."
+msgstr ""
+
+msgid "Prompt sent to Ollama"
+msgstr ""
+
+msgid "End of prompt"
+msgstr ""
+
+msgid "Prompt displayed."
+msgstr ""
+
+msgid "Tab loaded into Player and parsed."
+msgstr ""
+
+msgid "Tab generated. Click '▶ Load into Player' to play it."
+msgstr ""
+
+msgid "Error:"
+msgstr ""
+
+msgid "Generation failed."
+msgstr ""
+
+msgid "Asking Ollama for BPM of \"{song}\"…"
+msgstr ""
+
+msgid "Auto-Tempo: {bpm} BPM set."
+msgstr ""
+
+msgid "Auto-Tempo failed: "
+msgstr ""
