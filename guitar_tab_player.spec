@@ -31,7 +31,7 @@ if _fs_dll.exists():
     datas += [(str(_fs_dll), ".")]
 
 # Default SoundFont (optional – only bundled if present in build_windows/)
-for sf_name in ("FluidR3_GM.sf2", "GeneralUser GS.sf2", "default.sf2"):
+for sf_name in ("default.sf2", "FluidR3_GM.sf2", "GeneralUser GS.sf2", "TimGM6mb.sf2"):
     sf_path = ROOT / "build_windows" / sf_name
     if sf_path.exists():
         datas += [(str(sf_path), ".")]
