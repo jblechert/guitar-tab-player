@@ -30,8 +30,6 @@ SolidCompression=yes
 PrivilegesRequired=lowest
 PrivilegesRequiredOverridesAllowed=commandline
 WizardStyle=modern
-; Icon
-SetupIconFile=icon.ico
 UninstallDisplayIcon={app}\{#AppExeName}
 
 [Languages]
